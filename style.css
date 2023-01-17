@@ -4,7 +4,6 @@
 }
 
 body{
-    border: 12px solid black;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -12,13 +11,11 @@ body{
 }
 
 .login_box{
-    border: 1px solid red;
     padding: 50px;
     width: 30%;
 }
 
 .logo{
-    border: 3px solid blue;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -31,9 +28,26 @@ body{
 
 .head_text{
     text-align: center;
-    border: 5px solid brown;
     font-size: 35px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
+}
+
+.form_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.input_box{
+    width: 60%;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid rgb(225, 225, 225);
+    background-color: rgb(240, 240, 240);;
+    outline-color: blueviolet;
+    border-radius: 12px;
 }
 
